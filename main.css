@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+  height: 100%;
+  font-size: 10px;
+  background-color: palevioletred;
+}
+
+body {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+  padding: 3rem;
+  border: 4px solid #181416;
+  background-color: white;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #9c2562;
+  font-family: 'Sriracha', cursive;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: #9c2562;
+  font-family: 'Sriracha', cursive;
+}
+
+#list {
+  font-size: 3rem;
+  color: blue;
+  font-family: 'Sriracha', cursive;
+  text-align: left;
+}
+
+#btnWeather {
+  text-align: center;
+}
+
+#mylocation {
+
+  color: white;
+  background-color: #0394fc;
+  font-family: 'Sriracha', cursive;
+  font-size: 2rem;
+}
+
+#display {
+  text-align: center;
+  color: blue;
+  font-family: 'Sriracha', cursive;
+}
+
+#video {
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.8rem;
+  text-align: center;
+}
