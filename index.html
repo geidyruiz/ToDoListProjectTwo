@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>COMP1073 - ToDoList Project - PHASE TWO </title>
+  <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+  <script src="toDolist.js" defer></script>
+  <script src="fullScreenApi.js" defer></script>
+  <script src="weatherApi.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Online Planner</h1>
+    </header>
+    <section id="list">
+      <p>Please input you first activity </p>
+      <form>
+        <input type="text" id="userinput" placeholder="Things to Do" />
+        <input type="submit" value="Add To List" id="add" />
+      </form>
+      <ul></ul>
+    </section>
+    <section id="weather">
+      <h2>Are you planning an outdoor event?</h2>
+      <p>The tents and tables are up, catering is set, all the details have been checked off the list. You have the
+        perfect event planned…and then the storm hits. You realize that there’s really only one thing you can’t control:
+        the weather. </p>
+      <p>Many times, event planners don’t think about weather when planning their outdoor event. They hope it doesn’t
+        rain and may even consider a backup plan. But what about severe weather, strong winds or lightning? It is
+        important to be proactive and think ahead about the impact of severe weather on your event rather than leaving
+        it to chance. Incorporating a severe-weather plan can ensure you are better prepared and can help avoid chaos if
+        a storm hits. There are necessary steps you can take to ensure that if the weather does turn bad, you’ve got a
+        protocol and plan in place to keep attendees and staff safe.</p>
+      <div id="btnWeather">
+        <button id="mylocation">Check the current weather in your location</button>
+      </div>
+      <p id="location"></p>
+      <div id="display">
+        <h2 id="name"></h2>
+        <p id="mns"> </p>
+        <p id="temp"> </p>
+        <p id="temp_max"> </p>
+        <p id="temp_min"> </p>
+        <p id="humidity"> </p>
+     
+      </div>
+    </section>
+    <section id="video">
+      <h2>A Cat's To-Do List</h2>
+      <p>Please press the Enter key to view the video in full screen.</p>
+      <video controls id="catvideo1">
+        <source src="cat.mp4">
+      </video>
+    </section>
+    <footer>
+      <p> COMP1073 - Course Project - PHASE TWO- Geidy Ducura Ruiz - 200419082-Summer 2020 </p>
+    </footer>
+  </main>
+</body>
+
+</html>
+
+<!-- This page inspired by and adapted from https://planyourmeetings.com/weather-planning-the-perfect-outdoor-event/ and the video https://www.youtube.com/watch?v=Uiy-LFNHmvA-->
